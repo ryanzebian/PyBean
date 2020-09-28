@@ -24,7 +24,7 @@ def main():
     setup()
     parser = ByteCodeParser()
     classfile = parser.parse(file_path=BUILD_DIR+"/HelloWorld.class")
-    # interpreter.run(classfile)
+    interpreter.run(classfile)
 
 
 def setup():
